@@ -9,7 +9,7 @@ const route_guest = [
   },
   {
     path: "/portfolio",
-    exact: true,
+    exact: false,
     name: "PORTFOLIO",
     Component: Portfolio,
   },
