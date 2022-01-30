@@ -1,0 +1,65 @@
+/* PAGE PORTFOLIO */
+.title-portfolio {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.title-portfolio h1 {
+    font-family: 'Mochiy Pop P One',
+        sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    color: #2C2C2C;
+}
+
+.title-portfolio p {
+    font-size: 20px;
+    color: #A5A1A8;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.project-portfolio {
+    margin-bottom: 100px;
+}
+
+.project-portfolio .img-project {
+    object-fit: cover;
+    width: 100% !important;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.project-portfolio .card-project {
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.project-portfolio .card-project .bg-primary {
+    background: #2F3A8F !important;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: -1px;
+}
+
+.project-portfolio .card-project span {
+    font-family: DM Mono;
+    color: white;
+    font-size: 12px;
+    font-weight: 300px;
+}
+
+.project-portfolio .card-project h3 {
+    font-family: DM Mono;
+    color: white;
+    font-size: 20px;
+}
+
+.project-portfolio .card-project .btn-primary {
+    background: #FE7E6D !important;
+    color: white;
+    border-radius: 20px;
+    font-size: 11px;
+    font-family: DM Mono;
+    border: none;
+}

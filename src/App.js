@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import { Navigation, Footer } from "src/components";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import route_guest from "src/routes/route_guest";
+import { NotFound } from "src/pages";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navigation />
+      <Routes>
+        {route_guest.map(({ path, name, Component, exact }, key) => {
+          return (
+            <Route
+              key={key}
+              exact={exact}
+              path={path}
+              name={name}
+              element={<Component />}
+            />
+          );
+        })}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
