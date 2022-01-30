@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0771ce47.css",
+    "main.js": "/static/js/main.a28d177a.js",
+    "static/js/787.967aa242.chunk.js": "/static/js/787.967aa242.chunk.js",
+    "static/media/blog2.png": "/static/media/blog2.7929afa3511e52b03c91.png",
+    "static/media/project3.png": "/static/media/project3.28c6e18a039e3f0aaecc.png",
+    "static/media/project2.png": "/static/media/project2.dc18004f5025d04d3abc.png",
+    "static/media/project6.png": "/static/media/project6.41b8c0554be8dba07c22.png",
+    "static/media/sertifikat-dicoding.png": "/static/media/sertifikat-dicoding.7a4c202160642fb0a831.png",
+    "static/media/blog1.png": "/static/media/blog1.f31de69f3718001cc9a0.png",
+    "static/media/project5.png": "/static/media/project5.9dc9ec0b6fea1231a63e.png",
+    "static/media/project1.png": "/static/media/project1.6782cb8990736aca4256.png",
+    "static/media/project4.png": "/static/media/project4.43b805c4b75cd13c19eb.png",
+    "static/media/sertifikat-pinjul.png": "/static/media/sertifikat-pinjul.7fcdd3bcf8302ed98550.png",
+    "static/media/notfound.png": "/static/media/notfound.bb431e69aa93fcda7920.png",
+    "static/media/user.png": "/static/media/user.c719280bfad9740a65af.png",
+    "static/media/logo-react.png": "/static/media/logo-react.015ccf43208ddab06535.png",
+    "static/media/logo-csharp.png": "/static/media/logo-csharp.d600967f46ccf84e6ca8.png",
+    "index.html": "/index.html",
+    "main.0771ce47.css.map": "/static/css/main.0771ce47.css.map",
+    "main.a28d177a.js.map": "/static/js/main.a28d177a.js.map",
+    "787.967aa242.chunk.js.map": "/static/js/787.967aa242.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0771ce47.css",
+    "static/js/main.a28d177a.js"
+  ]
+}
