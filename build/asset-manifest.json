@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.0771ce47.css",
-    "main.js": "/static/js/main.a28d177a.js",
+    "main.css": "/static/css/main.d0dcb1c8.css",
+    "main.js": "/static/js/main.06e5fc24.js",
     "static/js/787.967aa242.chunk.js": "/static/js/787.967aa242.chunk.js",
+    "static/media/sertifikat-Google-Digital-Garage .png": "/static/media/sertifikat-Google-Digital-Garage .9bce87afc9bb666108b5.png",
+    "static/media/sertifikat-Google-Analis-Akademi.png": "/static/media/sertifikat-Google-Analis-Akademi.d2bb7c453d811ddc0c09.png",
+    "static/media/sertifkat-Google-Analis-Beginner.png": "/static/media/sertifkat-Google-Analis-Beginner.7614acd06188a2f44a97.png",
     "static/media/blog2.png": "/static/media/blog2.7929afa3511e52b03c91.png",
     "static/media/project3.png": "/static/media/project3.28c6e18a039e3f0aaecc.png",
     "static/media/project2.png": "/static/media/project2.dc18004f5025d04d3abc.png",
@@ -17,13 +20,17 @@
     "static/media/user.png": "/static/media/user.c719280bfad9740a65af.png",
     "static/media/logo-react.png": "/static/media/logo-react.015ccf43208ddab06535.png",
     "static/media/logo-csharp.png": "/static/media/logo-csharp.d600967f46ccf84e6ca8.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.0771ce47.css.map": "/static/css/main.0771ce47.css.map",
-    "main.a28d177a.js.map": "/static/js/main.a28d177a.js.map",
+    "main.d0dcb1c8.css.map": "/static/css/main.d0dcb1c8.css.map",
+    "main.06e5fc24.js.map": "/static/js/main.06e5fc24.js.map",
     "787.967aa242.chunk.js.map": "/static/js/787.967aa242.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0771ce47.css",
-    "static/js/main.a28d177a.js"
+    "static/css/main.d0dcb1c8.css",
+    "static/js/main.06e5fc24.js"
   ]
 }

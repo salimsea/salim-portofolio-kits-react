@@ -90,10 +90,11 @@
 
 .nav-tabs .nav-item .nav-link {
     background-color: #FE7E6D !important;
-    border: 5px #FE7E6D solid;
-    color: #FFFFFF;
+    border: 5px #FE7E6D solid !important;
+    color: #FFFFFF !important;
     margin: 0px 10px 0px 0px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .nav-tabs .nav-link.active,
@@ -137,10 +138,19 @@
 
 .certificate .card-certificate {
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 4px 15px rgb(0 0 0 / 8%);
     border-radius: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
+
+.certificate .card-certificate .img-fluid {
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+}
+
 
 .skill {
     margin-bottom: 100px;
@@ -156,13 +166,16 @@
 
 .skill .card-skill {
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 4px 15px rgb(0 0 0 / 8%);
     border-radius: 20px;
-    text-align: center;
     height: 150px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin: 10px;
+}
+.skill .card-skill .img-fluid {
+    width: 100px;
+    object-fit: contain;
 }
 
 @media only screen and (max-width: 768px) {

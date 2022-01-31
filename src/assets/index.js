@@ -8,10 +8,14 @@ import ProjectDummy6 from "./images/project6.png";
 import UserProfileDummy from "./images/user.png";
 import SertifikatDicoding from "./images/sertifikat-dicoding.png";
 import SertifikatPinjul from "./images/sertifikat-pinjul.png";
+import SertifikatGoogleAnalisAkademi from "./images/sertifikat-Google-Analis-Akademi.png";
+import SertifikatGoogleDigitalGarage from "./images/sertifikat-Google-Digital-Garage .png";
+import SertifikatGoogleAnalisBeginner from "./images/sertifkat-Google-Analis-Beginner.png";
 import LogoCsharp from "./images/logo-csharp.png";
 import LogoCi from "./images/logo-ci.png";
 import LogoJquery from "./images/logo-jquery.png";
 import LogoReact from "./images/logo-react.png";
+import LogoHtml5 from "./images/logo-html5.png";
 import ILNotFound from "./images/notfound.png";
 import BlogDummy1 from "./images/blog1.png";
 import BlogDummy2 from "./images/blog2.png";
@@ -26,10 +30,14 @@ export {
   UserProfileDummy,
   SertifikatDicoding,
   SertifikatPinjul,
+  SertifikatGoogleAnalisAkademi,
+  SertifikatGoogleDigitalGarage,
+  SertifikatGoogleAnalisBeginner,
   LogoCsharp,
   LogoCi,
   LogoJquery,
   LogoReact,
+  LogoHtml5,
   ILNotFound,
   BlogDummy1,
   BlogDummy2,

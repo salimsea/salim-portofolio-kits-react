@@ -12,6 +12,7 @@ import {
   Logo,
   LogoCi,
   LogoCsharp,
+  LogoHtml5,
   LogoJquery,
   LogoReact,
   ProjectDummy1,
@@ -19,10 +20,14 @@ import {
   ProjectDummy3,
   ProjectDummy4,
   SertifikatDicoding,
+  SertifikatGoogleAnalisAkademi,
+  SertifikatGoogleAnalisBeginner,
+  SertifikatGoogleDigitalGarage,
   SertifikatPinjul,
   UserProfileDummy,
 } from "src/assets";
 import "./style.css";
+import Slider from "react-slick";
 
 const Home = () => {
   const [isTab, setIsTab] = useState(1);
@@ -120,7 +125,7 @@ const Home = () => {
                   form.
                 </p>
                 <div className="mt-5">
-                  <button className="btn btn-primary btn-block">
+                  <button className="btn btn-costum-primary-outline px-5 mb-3 btn-block">
                     DOWNLOAD RESUME
                   </button>
                 </div>
@@ -147,7 +152,7 @@ const Home = () => {
                   </Nav>
                   <TabContent
                     activeTab={`${isTab}`}
-                    className="tabcontent-academic-experience mt-5 ms-4"
+                    className="tabcontent-academic-experience mt-4 ms-4"
                   >
                     <TabPane tabId="1">
                       <ul>
@@ -223,27 +228,69 @@ const Home = () => {
       <section className="certificate">
         <div className="container">
           <h3>Certificate</h3>
-          <div className="row mt-5">
-            <div className="col-md-6">
-              <div className="card-certificate">
-                <img
-                  src={SertifikatPinjul}
-                  width="494"
-                  className="img-fluid py-3"
-                  alt=""
-                />
+          <div className="mt-5">
+            <Slider
+              slidesPerRow={3}
+              responsive={[
+                {
+                  breakpoint: 801,
+                  settings: {
+                    slidesPerRow: 1,
+                  },
+                },
+              ]}
+            >
+              <div>
+                <div className="card-certificate">
+                  <img
+                    src={SertifikatPinjul}
+                    width="494"
+                    className="img-fluid py-3"
+                    alt=""
+                  />
+                </div>
               </div>
-            </div>
-            <div className="col-md-6">
-              <div className="card-certificate">
-                <img
-                  src={SertifikatDicoding}
-                  width="494"
-                  className="img-fluid py-3"
-                  alt=""
-                />
+              <div>
+                <div className="card-certificate">
+                  <img
+                    src={SertifikatDicoding}
+                    width="494"
+                    className="img-fluid py-3"
+                    alt=""
+                  />
+                </div>
               </div>
-            </div>
+              <div>
+                <div className="card-certificate">
+                  <img
+                    src={SertifikatGoogleAnalisAkademi}
+                    width="494"
+                    className="img-fluid py-3"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div>
+                <div className="card-certificate">
+                  <img
+                    src={SertifikatGoogleAnalisBeginner}
+                    width="494"
+                    className="img-fluid py-3"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div>
+                <div className="card-certificate">
+                  <img
+                    src={SertifikatGoogleDigitalGarage}
+                    width="494"
+                    className="img-fluid py-3"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </Slider>
           </div>
         </div>
       </section>
@@ -251,52 +298,64 @@ const Home = () => {
       <section className="skill">
         <div className="container">
           <h3>Skills</h3>
-          <div className="row mt-5">
-            <div className="col-md-2">
-              <div className="card-skill">
-                <img
-                  src={LogoCsharp}
-                  width="100"
-                  className="img-fluid"
-                  alt=""
-                />
+          <div className="mt-5">
+            <Slider
+              slidesPerRow={5}
+              responsive={[
+                {
+                  breakpoint: 801,
+                  settings: {
+                    slidesPerRow: 2,
+                  },
+                },
+              ]}
+            >
+              <div>
+                <div className="card-skill">
+                  <img
+                    src={LogoHtml5}
+                    width="100"
+                    className="img-fluid"
+                    alt=""
+                  />
+                </div>
               </div>
-            </div>
-            <div className="col-md-2">
-              <div className="card-skill">
-                <img src={LogoReact} width="100" className="img-fluid" alt="" />
+              <div>
+                <div className="card-skill">
+                  <img
+                    src={LogoJquery}
+                    width="100"
+                    className="img-fluid"
+                    alt=""
+                  />
+                </div>
               </div>
-            </div>
-            <div className="col-md-2">
-              <div className="card-skill">
-                <img
-                  src={LogoJquery}
-                  width="100"
-                  className="img-fluid"
-                  alt=""
-                />
+              <div>
+                <div className="card-skill">
+                  <img
+                    src={LogoCsharp}
+                    width="100"
+                    className="img-fluid"
+                    alt=""
+                  />
+                </div>
               </div>
-            </div>
-            <div className="col-md-2">
-              <div className="card-skill">
-                <img src={LogoCi} width="100" className="img-fluid" alt="" />
+              <div>
+                <div className="card-skill">
+                  <img
+                    src={LogoReact}
+                    width="100"
+                    className="img-fluid"
+                    alt=""
+                  />
+                </div>
               </div>
-            </div>
-            <div className="col-md-2">
-              <div className="card-skill">
-                <img src={LogoReact} width="100" className="img-fluid" alt="" />
+              <div>
+                <div className="card-skill">
+                  <img src={LogoCi} width="100" className="img-fluid" alt="" />
+                </div>
               </div>
-            </div>
-            <div className="col-md-2">
-              <div className="card-skill">
-                <img
-                  src={LogoJquery}
-                  width="100"
-                  className="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
+            </Slider>
           </div>
         </div>
       </section>
