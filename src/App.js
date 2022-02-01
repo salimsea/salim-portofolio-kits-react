@@ -1,13 +1,22 @@
+import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import { Navigation, Footer } from "src/components";
 import route_guest from "src/routes/route_guest";
 import { NotFound } from "src/pages";
+import AOS from "aos";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "aos/dist/aos.css";
 import "./App.css";
 
 const App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      once: true,
+    });
+  }, []);
   return (
     <>
       <Navigation />

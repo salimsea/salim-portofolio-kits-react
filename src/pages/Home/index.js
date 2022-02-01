@@ -33,7 +33,7 @@ const Home = () => {
   const [isTab, setIsTab] = useState(1);
   return (
     <div>
-      <section className="hero">
+      <section className="hero" data-aos="fade-right">
         <Container>
           <div className="d-flex align-items-center">
             <span className="garis d-none d-sm-block"></span>
@@ -51,7 +51,7 @@ const Home = () => {
       <section className="project">
         <Container>
           <Row className="text-center">
-            <div className="col-md-6 mb-4">
+            <div className="col-md-6 mb-4" data-aos="fade-up">
               <img
                 src={ProjectDummy1}
                 width="650"
@@ -59,7 +59,7 @@ const Home = () => {
                 alt=""
               />
             </div>
-            <div className="col-md-6 mb-4">
+            <div className="col-md-6 mb-4" data-aos="fade-up">
               <img
                 src={ProjectDummy2}
                 width="650"
@@ -67,7 +67,7 @@ const Home = () => {
                 alt=""
               />
             </div>
-            <div className="col-md-6 mb-4">
+            <div className="col-md-6 mb-4" data-aos="fade-up">
               <img
                 src={ProjectDummy3}
                 width="650"
@@ -75,7 +75,7 @@ const Home = () => {
                 alt=""
               />
             </div>
-            <div className="col-md-6 mb-4">
+            <div className="col-md-6 mb-4" data-aos="fade-up">
               <img
                 src={ProjectDummy4}
                 width="650"
@@ -89,7 +89,7 @@ const Home = () => {
 
       <section className="description">
         <div className="container">
-          <div className="profile-creator">
+          <div className="profile-creator" data-aos="zoom-in">
             <div className="row">
               <div className="col-md-2">
                 <div>
@@ -110,7 +110,7 @@ const Home = () => {
           </div>
           <div className="card-description mt-5">
             <div className="row">
-              <div className="col-md-6 pe-5">
+              <div className="col-md-6 pe-5" data-aos="fade-up-right">
                 <p>
                   Hai, my name Salim Segaf Alqosam, from indonesia 🇮🇩 . There
                   are many variations of passages of Lorem Ipsum available, but
@@ -130,7 +130,7 @@ const Home = () => {
                   </button>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6" data-aos="fade-up-left">
                 <div>
                   <Nav className="card-academic-experience" tabs>
                     <NavItem>
@@ -227,10 +227,13 @@ const Home = () => {
 
       <section className="certificate">
         <div className="container">
-          <h3>Certificate</h3>
+          <h3 data-aos="zoom-in">Certificate</h3>
           <div className="mt-5">
             <Slider
               slidesPerRow={3}
+              autoplay={true}
+              infinite={true}
+              speed={500}
               responsive={[
                 {
                   breakpoint: 801,
@@ -241,7 +244,7 @@ const Home = () => {
               ]}
             >
               <div>
-                <div className="card-certificate">
+                <div className="card-certificate" data-aos="fade-up">
                   <img
                     src={SertifikatPinjul}
                     width="494"
@@ -251,7 +254,7 @@ const Home = () => {
                 </div>
               </div>
               <div>
-                <div className="card-certificate">
+                <div className="card-certificate" data-aos="fade-up">
                   <img
                     src={SertifikatDicoding}
                     width="494"
@@ -261,7 +264,7 @@ const Home = () => {
                 </div>
               </div>
               <div>
-                <div className="card-certificate">
+                <div className="card-certificate" data-aos="fade-up">
                   <img
                     src={SertifikatGoogleAnalisAkademi}
                     width="494"
@@ -271,7 +274,7 @@ const Home = () => {
                 </div>
               </div>
               <div>
-                <div className="card-certificate">
+                <div className="card-certificate" data-aos="fade-up">
                   <img
                     src={SertifikatGoogleAnalisBeginner}
                     width="494"
@@ -297,7 +300,7 @@ const Home = () => {
 
       <section className="skill">
         <div className="container">
-          <h3>Skills</h3>
+          <h3 data-aos="zoom-in">Skills</h3>
           <div className="mt-5">
             <Slider
               slidesPerRow={5}
@@ -311,7 +314,7 @@ const Home = () => {
               ]}
             >
               <div>
-                <div className="card-skill">
+                <div className="card-skill" data-aos="fade-up">
                   <img
                     src={LogoHtml5}
                     width="100"
@@ -321,7 +324,7 @@ const Home = () => {
                 </div>
               </div>
               <div>
-                <div className="card-skill">
+                <div className="card-skill" data-aos="fade-up">
                   <img
                     src={LogoJquery}
                     width="100"
@@ -331,7 +334,7 @@ const Home = () => {
                 </div>
               </div>
               <div>
-                <div className="card-skill">
+                <div className="card-skill" data-aos="fade-up">
                   <img
                     src={LogoCsharp}
                     width="100"
@@ -341,7 +344,7 @@ const Home = () => {
                 </div>
               </div>
               <div>
-                <div className="card-skill">
+                <div className="card-skill" data-aos="fade-up">
                   <img
                     src={LogoReact}
                     width="100"
@@ -351,7 +354,7 @@ const Home = () => {
                 </div>
               </div>
               <div>
-                <div className="card-skill">
+                <div className="card-skill" data-aos="fade-up">
                   <img src={LogoCi} width="100" className="img-fluid" alt="" />
                 </div>
               </div>

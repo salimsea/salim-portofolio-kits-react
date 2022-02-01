@@ -19,7 +19,7 @@ const Portfolio = () => {
   return (
     <div>
       <section className="title-portfolio">
-        <div className="container text-center">
+        <div className="container text-center" data-aos="zoom-in">
           <h1>Portfolio</h1>
           <p className="mt-3">
             I’am a front-end designer & back-end developer Based Indonesia 🇮🇩
@@ -30,7 +30,7 @@ const Portfolio = () => {
       <section className="project-portfolio">
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="flip-left">
               <div className="card-project">
                 <img src={ProjectDummy1} className="img-project" alt="" />
                 <div className="row bg-primary py-3 mx-0 px-2">
@@ -50,7 +50,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="flip-left">
               <div className="card-project">
                 <img src={ProjectDummy2} className="img-project" alt="" />
                 <div className="row bg-primary py-3 mx-0 px-2">
@@ -70,7 +70,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="flip-left">
               <div className="card-project">
                 <img src={ProjectDummy3} className="img-project" alt="" />
                 <div className="row bg-primary py-3 mx-0 px-2">
@@ -90,7 +90,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="flip-left">
               <div className="card-project">
                 <img src={ProjectDummy4} className="img-project" alt="" />
                 <div className="row bg-primary py-3 mx-0 px-2">
@@ -110,7 +110,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="flip-left">
               <div className="card-project">
                 <img src={ProjectDummy5} className="img-project" alt="" />
                 <div className="row bg-primary py-3 mx-0 px-2">
@@ -130,7 +130,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="flip-left">
               <div className="card-project">
                 <img src={ProjectDummy6} className="img-project" alt="" />
                 <div className="row bg-primary py-3 mx-0 px-2">
