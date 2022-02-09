@@ -112,20 +112,24 @@ const Home = () => {
             <div className="row">
               <div className="col-md-6 pe-5" data-aos="fade-up-right">
                 <p>
-                  Hai, my name Salim Segaf Alqosam, from indonesia 🇮🇩 . There
-                  are many variations of passages of Lorem Ipsum available, but
-                  the majority have suffered alteration in some form, by
-                  injected humour, or randomised words which don't look even
-                  slightly believable. If you are going to use a passage of
-                  Lorem Ipsum, you need to be sure there isn't
+                  Hai, my name Salim Segaf Alqosam, I'm from Indonesia and a
+                  software engineer, I have experience in making mobile
+                  applications and websites, I can solve problems in difficulty,
+                  have a willingness to learn new technology, and can work with
+                  a team
                   <br />
                   <br />
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form.
+                  Techstack i like to use html, css, javascript, reactjs, react
+                  native, csharp, php, postgresql, mysql.
                 </p>
                 <div className="mt-5">
-                  <button className="btn btn-costum-primary-outline px-5 mb-3 btn-block">
+                  <button
+                    onClick={() =>
+                      (window.location =
+                        "https://drive.google.com/file/d/1z7N9GXKuBWev21WT9EPdF5EU7SaFyK5A/view?usp=sharing")
+                    }
+                    className="btn btn-costum-primary-outline px-5 mb-3 btn-block"
+                  >
                     DOWNLOAD RESUME
                   </button>
                 </div>
@@ -159,38 +163,38 @@ const Home = () => {
                         <li>
                           <div className="bulet"></div>
                           <p>
-                            2019 : (Dicoding) Course ID CAMP, Membuat aplikasi
-                            menggunakan JAVA
+                            2019 : (Dicoding) Course ID CAMP, Making
+                            applications using JAVA
                           </p>
                         </li>
                         <li>
                           <div className="bulet"></div>
                           <p>
-                            2019 : (YouTube) Mentor Prawito Hudoro, Clone
-                            aplikasi Gojek menggunakan React Native
+                            2019 : (YouTube) Mentor Prawito Hudoro, Gojek
+                            application clone using React Native
                           </p>
                         </li>
                         <li>
                           <div className="bulet"></div>
                           <p>
                             2019 - 2020 : (BuildWithAngga) Mentor Prawito
-                            Hudoro, Membuat aplikasi mobile My Doctor,
-                            menggunakan React Native & Firebase
+                            Hudoro, Create a My Doctor mobile application, using
+                            React Native & Firebase
                           </p>
                         </li>
                         <li>
                           <div className="bulet"></div>
                           <p>
-                            2020 : (YouTube) Mentor Prawito Hudoro, Membuat
-                            aplikasi web menggunakan REACT JS{" "}
+                            2020 : (YouTube) Mentor Prawito Hudoro, Made web
+                            application using REACT JS
                           </p>
                         </li>
                         <li>
                           <div className="bulet"></div>
                           <p>
-                            2021 - 2022 : (BuildWithAngga) Mentor Pak Angga,
-                            slicing / Membuat Web front-end dengan cara
-                            mengikuti SKETCH
+                            2021 - 2022 : (BuildWithAngga) Mr. Angga's mentor,
+                            slicing / Creating a web front-end with the follow
+                            SKETCH
                           </p>
                         </li>
                       </ul>
@@ -199,20 +203,22 @@ const Home = () => {
                       <ul>
                         <li>
                           <div className="bulet"></div>
-                          <p>2019 - 2020 : Developer Web Dropshipedia</p>
-                        </li>
-                        <li>
-                          <div className="bulet"></div>
                           <p>
-                            2020 - now : Developer Web & Mobile App School
-                            Attaufiq
+                            PT Digital Dropship Indonesia <br />
+                            <small>Jan 2019 - Present</small> <br />
+                            Working with tech stacks : C#, React.js, React
+                            Native, PostgreSQL, SignalR. <br />
+                            Fullstack Developer & Maintener Web & Mobile apps
                           </p>
                         </li>
                         <li>
                           <div className="bulet"></div>
                           <p>
-                            2021 - now : Developer Back-end & Mobile App
-                            Dropshipedia
+                            PT Sawerigading Multi Kreasi <br />
+                            <small>Oct 2019 - Present</small> <br />
+                            Working with tech stacks : C#, React.js, React
+                            Native, JQuery, PostgreSQL. <br />
+                            Fullstack Developer & Maintener Web & Mobile apps
                           </p>
                         </li>
                       </ul>

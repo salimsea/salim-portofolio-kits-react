@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1333afd.css",
-    "main.js": "/static/js/main.769c33de.js",
+    "main.css": "/static/css/main.bb86cf4d.css",
+    "main.js": "/static/js/main.1d56b299.js",
     "static/js/787.967aa242.chunk.js": "/static/js/787.967aa242.chunk.js",
     "static/media/sertifikat-Google-Digital-Garage .png": "/static/media/sertifikat-Google-Digital-Garage .9bce87afc9bb666108b5.png",
     "static/media/sertifikat-Google-Analis-Akademi.png": "/static/media/sertifikat-Google-Analis-Akademi.d2bb7c453d811ddc0c09.png",
     "static/media/sertifkat-Google-Analis-Beginner.png": "/static/media/sertifkat-Google-Analis-Beginner.7614acd06188a2f44a97.png",
     "static/media/blog2.png": "/static/media/blog2.7929afa3511e52b03c91.png",
+    "static/media/user.png": "/static/media/user.82424c6f3ae2c53a275f.png",
+    "static/media/project7.png": "/static/media/project7.ed5f71cdcf1fa44cde5c.png",
     "static/media/project3.png": "/static/media/project3.28c6e18a039e3f0aaecc.png",
     "static/media/project2.png": "/static/media/project2.dc18004f5025d04d3abc.png",
     "static/media/project6.png": "/static/media/project6.41b8c0554be8dba07c22.png",
+    "static/media/project10.png": "/static/media/project10.ffcceb1bab5304dae43f.png",
     "static/media/sertifikat-dicoding.png": "/static/media/sertifikat-dicoding.7a4c202160642fb0a831.png",
     "static/media/blog1.png": "/static/media/blog1.f31de69f3718001cc9a0.png",
     "static/media/project5.png": "/static/media/project5.9dc9ec0b6fea1231a63e.png",
+    "static/media/project9.png": "/static/media/project9.c264cbdce20fdb7b1cd3.png",
     "static/media/project1.png": "/static/media/project1.6782cb8990736aca4256.png",
     "static/media/project4.png": "/static/media/project4.43b805c4b75cd13c19eb.png",
     "static/media/sertifikat-pinjul.png": "/static/media/sertifikat-pinjul.7fcdd3bcf8302ed98550.png",
+    "static/media/project8.png": "/static/media/project8.cc2a730c79b0286c40d0.png",
     "static/media/notfound.png": "/static/media/notfound.bb431e69aa93fcda7920.png",
-    "static/media/user.png": "/static/media/user.c719280bfad9740a65af.png",
     "static/media/logo-react.png": "/static/media/logo-react.015ccf43208ddab06535.png",
     "static/media/logo-csharp.png": "/static/media/logo-csharp.d600967f46ccf84e6ca8.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -25,12 +29,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.a1333afd.css.map": "/static/css/main.a1333afd.css.map",
-    "main.769c33de.js.map": "/static/js/main.769c33de.js.map",
+    "main.bb86cf4d.css.map": "/static/css/main.bb86cf4d.css.map",
+    "main.1d56b299.js.map": "/static/js/main.1d56b299.js.map",
     "787.967aa242.chunk.js.map": "/static/js/787.967aa242.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1333afd.css",
-    "static/js/main.769c33de.js"
+    "static/css/main.bb86cf4d.css",
+    "static/js/main.1d56b299.js"
   ]
 }

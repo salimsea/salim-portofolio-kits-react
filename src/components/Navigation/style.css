@@ -3,14 +3,14 @@
     background: #F3F5FC;
 }
 
-.navbar-nav>.active>a {
+/* .navbar-nav>.active>a {
     font-family: 'DM Mono' !important;
     color: #2F3A8F !important;
     font-weight: 500 !important;
     font-size: 20px;
     border-bottom: 3px #FE7E6D solid;
     margin: 0px 10px 0px 10px;
-}
+} */
 
 .navbar-nav .nav-item .nav-link {
     font-family: 'DM Mono';
@@ -27,4 +27,17 @@
     box-sizing: border-box;
     border-radius: 20px;
     font-weight: normal;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    font-family: 'DM Mono' !important;
+    color: #2F3A8F !important;
+    font-weight: 500 !important;
+    font-size: 20px;
+    border-bottom: 3px #FE7E6D solid;
+    margin: 0px 10px 0px 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2F3A8F !important;
 }

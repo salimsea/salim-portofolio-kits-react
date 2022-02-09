@@ -10,12 +10,13 @@ import "slick-carousel/slick/slick-theme.css";
 import "aos/dist/aos.css";
 import "./App.css";
 
-const App = () => {
+const App = (props) => {
   useEffect(() => {
     AOS.init({
       duration: 1200,
       once: true,
     });
+    console.log("props", window.location.pathname);
   }, []);
   return (
     <>

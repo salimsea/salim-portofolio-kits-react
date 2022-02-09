@@ -11,7 +11,15 @@ const Footer = () => {
             <div className="text-center">
               <img src={Logo} width="50" className="img-fluid" />
               <h4 className="text-copyright-salim mt-2">salimseal.com</h4>
-              <button className="btn btn-primary mt-2">DOWNLOAD RESUME</button>
+              <button
+                onClick={() =>
+                  (window.location =
+                    "https://drive.google.com/file/d/1z7N9GXKuBWev21WT9EPdF5EU7SaFyK5A/view?usp=sharing")
+                }
+                className="btn btn-primary mt-2"
+              >
+                DOWNLOAD RESUME
+              </button>
             </div>
           </div>
           <div className="col-md-2">
