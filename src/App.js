@@ -18,6 +18,7 @@ const App = (props) => {
     });
     console.log("props", window.location.pathname);
   }, []);
+
   return (
     <>
       <Navigation />

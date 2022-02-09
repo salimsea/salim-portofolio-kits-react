@@ -1,0 +1,26 @@
+.dashboard {
+    margin-bottom: 100px;
+}
+
+.dashboard .card-menu{
+    border-radius: 10px;
+}
+.dashboard .card-menu h4 {
+    font-family: 'Mochiy Pop P One',
+    sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #2C2C2C;
+}
+
+.dashboard .card-content {
+    border-radius: 10px;
+}
+
+.dashboard .card-content h4 {
+    font-family: 'Mochiy Pop P One',
+    sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #2C2C2C;
+}

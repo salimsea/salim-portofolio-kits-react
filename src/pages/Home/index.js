@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Nav,
   NavItem,
@@ -30,6 +30,9 @@ import "./style.css";
 import Slider from "react-slick";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [isTab, setIsTab] = useState(1);
   return (
     <div>
@@ -110,7 +113,7 @@ const Home = () => {
           </div>
           <div className="card-description mt-5">
             <div className="row">
-              <div className="col-md-6 pe-5" data-aos="fade-up-right">
+              <div className="col-md-6 pe-5" data-aos="fade-right">
                 <p>
                   Hai, my name Salim Segaf Alqosam, I'm from Indonesia and a
                   software engineer, I have experience in making mobile
@@ -134,7 +137,7 @@ const Home = () => {
                   </button>
                 </div>
               </div>
-              <div className="col-md-6" data-aos="fade-up-left">
+              <div className="col-md-6" data-aos="fade-left">
                 <div>
                   <Nav className="card-academic-experience" tabs>
                     <NavItem>
@@ -233,7 +236,7 @@ const Home = () => {
 
       <section className="certificate">
         <div className="container">
-          <h3 data-aos="zoom-in">Certificate</h3>
+          <h3 data-aos="fade-right">Certificate</h3>
           <div className="mt-5">
             <Slider
               slidesPerRow={3}
@@ -306,7 +309,7 @@ const Home = () => {
 
       <section className="skill">
         <div className="container">
-          <h3 data-aos="zoom-in">Skills</h3>
+          <h3 data-aos="fade-right">Skills</h3>
           <div className="mt-5">
             <Slider
               slidesPerRow={5}

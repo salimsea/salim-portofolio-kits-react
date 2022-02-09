@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ILNotFound } from "src/assets";
 
 const NotFound = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div
       className="d-flex justify-content-center align-items-center"

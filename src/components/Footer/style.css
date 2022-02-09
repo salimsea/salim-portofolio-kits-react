@@ -45,6 +45,15 @@
     list-style: none;
     margin-bottom: 10px;
 }
+.footer li a {
+    color: inherit;
+    font-style: inherit;
+    text-decoration: inherit;
+}
+.footer li a:hover {
+    color: #FE7E6D;
+    font-weight: 400;
+}
 
 .footer .bulet-white {
     width: 10px;

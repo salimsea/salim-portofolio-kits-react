@@ -52,7 +52,7 @@ const Navigation = (props) => {
                 "https://wa.me/6282112235774?text=Assalamualaikum%20Warahmatullahi%20Wabarakatuh"
               )
             }
-            className="btn-menu ms-4 px-5"
+            className="btn-costum-primary-outline ms-4 px-5"
           >
             CONTACT ME
           </Button>

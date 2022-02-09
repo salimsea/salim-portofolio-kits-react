@@ -1,4 +1,4 @@
-import { Blog, Home, Portfolio } from "src/pages";
+import { Blog, Home, Portfolio, AdmLogin, AdmDashboard } from "src/pages";
 
 const route_guest = [
   {
@@ -24,6 +24,18 @@ const route_guest = [
     exact: true,
     name: "BLOGGER",
     Component: Blog,
+  },
+  {
+    path: "/admin-console/login",
+    exact: true,
+    name: "ADMIN CONSOLE",
+    Component: AdmLogin,
+  },
+  {
+    path: "/admin-console",
+    exact: true,
+    name: "ADMIN CONSOLE",
+    Component: AdmDashboard,
   },
 ];
 

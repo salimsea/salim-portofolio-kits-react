@@ -50,41 +50,44 @@
 
 .blogger .card-post {
     /* height: 200px/; */
+    background: #fff !important;
     border-radius: 20px;
     margin-bottom: 20px;
 }
 
 .blogger .card-post .bg-primary {
-    background: #2F3A8F !important;
-    color: white;
+    background: none !important;
+    color: #2C2C2C;
     border-radius: 0px 0px 20px 20px;
     margin-top: -1px;
 }
 
+.blogger .card-post:hover {
+    background: #FE7E6D !important;
+    color: white !important;
+    cursor: pointer;
+}
+
 .blogger .card-post span {
     font-family: DM Mono;
-    color: white;
     font-size: 12px;
     font-weight: 300px;
 }
 
 .blogger .card-post small {
     font-family: DM Mono;
-    color: white;
     font-size: 11px;
     font-weight: 300;
 }
 
 .blogger .card-post h2 {
     font-family: DM Mono;
-    color: white;
     font-size: 20px;
     font-weight: 500;
 }
 
 .blogger .card-post p {
     font-family: DM Mono;
-    color: white;
     font-size: 12px;
     line-height: 16px;
     font-weight: 300;
@@ -129,7 +132,11 @@
 .blogger .card-category-post li {
     list-style: none;
     margin-bottom: 10px;
+}
+.blogger .card-category-post li:hover {
     cursor: pointer;
+    color: #FE7E6D;
+    font-weight: 500;
 }
 
 .blogger .card-category-post .bulet-color {

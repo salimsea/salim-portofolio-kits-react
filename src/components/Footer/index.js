@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Logo } from "src/assets";
 import "./style.css";
 
@@ -26,16 +27,28 @@ const Footer = () => {
             <h2>Menu Link</h2>
             <ul>
               <li>
-                <div className="bulet-white"></div>
-                Blog
+                <Link to={"/portfolio"}>
+                  <div className="bulet-white"></div>
+                  Portfolio
+                </Link>
               </li>
               <li>
-                <div className="bulet-white"></div>
-                Portfolio
+                <Link to={"/blog"}>
+                  <div className="bulet-white"></div>
+                  Blog
+                </Link>
               </li>
               <li>
-                <div className="bulet-white"></div>
-                Tools
+                <Link to={"/tools"}>
+                  <div className="bulet-white"></div>
+                  Tools
+                </Link>
+              </li>
+              <li>
+                <Link to={"/admin-console/login"}>
+                  <div className="bulet-white"></div>
+                  Admin Console
+                </Link>
               </li>
             </ul>
           </div>
@@ -52,6 +65,10 @@ const Footer = () => {
               <h2>Instagram</h2>
               <h6>@salimseal</h6>
             </div>
+            <div className="mb-3">
+              <h2>Github</h2>
+              <h6>@salimsea</h6>
+            </div>
           </div>
           <div className="col-md-5">
             <iframe
@@ -66,7 +83,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="copyright">© COPYRIGHT 2022</div>
+      <div className="copyright">© COPYRIGHT {new Date().getFullYear()}</div>
     </section>
   );
 };
