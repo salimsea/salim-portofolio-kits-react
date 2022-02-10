@@ -1,41 +1,35 @@
-import { Blog, Home, Portfolio, AdmLogin, AdmDashboard } from "src/pages";
+import { Login, Blog, Home, Portfolio } from "src/pages";
 
 const route_guest = [
   {
-    path: "/",
+    path: "",
     exact: true,
     name: "HOME",
     Component: Home,
   },
   {
-    path: "/portfolio",
+    path: "portfolio",
     exact: false,
     name: "PORTFOLIO",
     Component: Portfolio,
   },
   {
-    path: "/portfolio/:id",
+    path: "portfolio/:id",
     exact: true,
     name: "PORTFOLIO",
     Component: Portfolio,
   },
   {
-    path: "/blog",
+    path: "blog",
     exact: true,
     name: "BLOGGER",
     Component: Blog,
   },
   {
-    path: "/admin-console/login",
+    path: "login",
     exact: true,
-    name: "ADMIN CONSOLE",
-    Component: AdmLogin,
-  },
-  {
-    path: "/admin-console",
-    exact: true,
-    name: "ADMIN CONSOLE",
-    Component: AdmDashboard,
+    name: "CONSOLE ADMIN",
+    Component: Login,
   },
 ];
 

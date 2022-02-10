@@ -45,7 +45,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to={"/admin-console/login"}>
+                <Link to={"/login"}>
                   <div className="bulet-white"></div>
                   Admin Console
                 </Link>
