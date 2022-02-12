@@ -38,7 +38,7 @@ const AdmDashboard = () => {
   return (
     <div className="dashboard bg-white p-4">
       <h4>Dashboard</h4>
-      <div className="mt-3">
+      <div className="mt-4">
         {/* SECTION WIDGET */}
         <div className="row">
           <div className="col-md-4 mb-2">

@@ -7,6 +7,7 @@ import ManagePortfolio from "./Admin/ManagePortfolio";
 import ManageBlog from "./Admin/ManageBlog";
 import Settings from "./Admin/Settings";
 import Login from "./Login";
+import Test from "./Test";
 
 export {
   Home,
@@ -18,4 +19,5 @@ export {
   Login,
   Dashboard,
   Settings,
+  Test,
 };

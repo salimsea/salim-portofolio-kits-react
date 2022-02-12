@@ -1,4 +1,4 @@
-import { Login, Blog, Home, Portfolio } from "src/pages";
+import { Login, Blog, Home, Portfolio, Test } from "src/pages";
 
 const route_guest = [
   {
@@ -30,6 +30,12 @@ const route_guest = [
     exact: true,
     name: "CONSOLE ADMIN",
     Component: Login,
+  },
+  {
+    path: "test",
+    exact: true,
+    name: "CONSOLE ADMIN",
+    Component: Test,
   },
 ];
 
