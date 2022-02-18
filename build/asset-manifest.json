@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.a2da3cc1.css",
-    "main.js": "/static/js/main.dc31591b.js",
+    "main.css": "/static/css/main.0d70a1d9.css",
+    "main.js": "/static/js/main.d4e14983.js",
     "static/js/787.967aa242.chunk.js": "/static/js/787.967aa242.chunk.js",
+    "static/media/sertifikat-eBSI-Networking.png": "/static/media/sertifikat-eBSI-Networking.1b5a77a7aa610e2baed6.png",
     "static/media/sertifikat-Google-Digital-Garage .png": "/static/media/sertifikat-Google-Digital-Garage .9bce87afc9bb666108b5.png",
     "static/media/sertifikat-Google-Analis-Akademi.png": "/static/media/sertifikat-Google-Analis-Akademi.d2bb7c453d811ddc0c09.png",
     "static/media/sertifkat-Google-Analis-Beginner.png": "/static/media/sertifkat-Google-Analis-Beginner.7614acd06188a2f44a97.png",
@@ -29,12 +30,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.a2da3cc1.css.map": "/static/css/main.a2da3cc1.css.map",
-    "main.dc31591b.js.map": "/static/js/main.dc31591b.js.map",
+    "main.0d70a1d9.css.map": "/static/css/main.0d70a1d9.css.map",
+    "main.d4e14983.js.map": "/static/js/main.d4e14983.js.map",
     "787.967aa242.chunk.js.map": "/static/js/787.967aa242.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2da3cc1.css",
-    "static/js/main.dc31591b.js"
+    "static/css/main.0d70a1d9.css",
+    "static/js/main.d4e14983.js"
   ]
 }

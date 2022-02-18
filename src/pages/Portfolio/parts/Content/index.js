@@ -83,7 +83,7 @@ const jsonProduct = [
   },
   {
     image: ProjectDummy10,
-    type: "Web Apps",
+    type: "Mobile Apps",
     title: "DROPSHIPEDIA MOBILE",
     description:
       "This is a mobile application for selling goods by dropship, you can visit it here: not available",

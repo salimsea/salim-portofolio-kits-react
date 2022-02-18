@@ -3,11 +3,10 @@ import { Link, useNavigate } from "react-router-dom";
 import "./style.css";
 
 const AdmLogin = () => {
+  const user = localStorage.getItem("TOKEN");
   const navigate = useNavigate();
   useEffect(() => {
-    const user = localStorage.getItem("TOKEN");
     if (user !== null) navigate("/admin-console");
-    // if (user !== null) window.location = "/admin-console";
     window.scrollTo(0, 0);
   }, []);
   const btnLogin = () => {

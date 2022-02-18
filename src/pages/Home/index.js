@@ -24,6 +24,7 @@ import {
   SertifikatGoogleAnalisBeginner,
   SertifikatGoogleDigitalGarage,
   SertifikatPinjul,
+  SertifikatEBsiNetwork,
   UserProfileDummy,
 } from "src/assets";
 import "./style.css";
@@ -296,6 +297,16 @@ const Home = () => {
                 <div className="card-certificate">
                   <img
                     src={SertifikatGoogleDigitalGarage}
+                    width="494"
+                    className="img-fluid py-3"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div>
+                <div className="card-certificate">
+                  <img
+                    src={SertifikatEBsiNetwork}
                     width="494"
                     className="img-fluid py-3"
                     alt=""

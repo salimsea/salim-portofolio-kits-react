@@ -15,6 +15,7 @@ import SertifikatPinjul from "./images/sertifikat-pinjul.png";
 import SertifikatGoogleAnalisAkademi from "./images/sertifikat-Google-Analis-Akademi.png";
 import SertifikatGoogleDigitalGarage from "./images/sertifikat-Google-Digital-Garage .png";
 import SertifikatGoogleAnalisBeginner from "./images/sertifkat-Google-Analis-Beginner.png";
+import SertifikatEBsiNetwork from "./images/sertifikat-eBSI-Networking.png";
 import LogoCsharp from "./images/logo-csharp.png";
 import LogoCi from "./images/logo-ci.png";
 import LogoJquery from "./images/logo-jquery.png";
@@ -41,6 +42,7 @@ export {
   SertifikatGoogleAnalisAkademi,
   SertifikatGoogleDigitalGarage,
   SertifikatGoogleAnalisBeginner,
+  SertifikatEBsiNetwork,
   LogoCsharp,
   LogoCi,
   LogoJquery,
