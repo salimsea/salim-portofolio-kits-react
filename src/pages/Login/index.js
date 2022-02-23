@@ -1,17 +1,25 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./style.css";
 
 const AdmLogin = () => {
   const user = localStorage.getItem("TOKEN");
+  const [form, setForm] = useState({
+    username: "",
+    password: "",
+  });
   const navigate = useNavigate();
   useEffect(() => {
     if (user !== null) navigate("/admin-console");
     window.scrollTo(0, 0);
   }, []);
   const btnLogin = () => {
-    localStorage.setItem("TOKEN", "ready");
-    window.location = "/admin-console";
+    if (form.username === "adm") {
+      localStorage.setItem("TOKEN", "ready");
+      window.location = "/admin-console";
+    } else {
+      alert("system detects you anonymous, run!!!");
+    }
   };
   return (
     <div>
@@ -39,6 +47,9 @@ const AdmLogin = () => {
                           className="form-control"
                           name="Username"
                           placeholder="Enter your username..."
+                          onChange={(e) =>
+                            setForm({ username: e.target.value })
+                          }
                         />
                       </div>
                     </div>

@@ -36,7 +36,13 @@ const Navigation = (props) => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/blog" tag={RRNavLink}>
+              <NavLink
+                to="/blog"
+                onClick={() =>
+                  (window.location = "https://salim-tekno.blogspot.com/")
+                }
+                tag={RRNavLink}
+              >
                 Blog
               </NavLink>
             </NavItem>

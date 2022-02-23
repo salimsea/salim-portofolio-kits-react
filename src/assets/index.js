@@ -9,6 +9,8 @@ import ProjectDummy7 from "./images/project7.png";
 import ProjectDummy8 from "./images/project8.png";
 import ProjectDummy9 from "./images/project9.png";
 import ProjectDummy10 from "./images/project10.png";
+import ProjectDummy11 from "./images/project11.png";
+import ProjectDummy12 from "./images/project12.png";
 import UserProfileDummy from "./images/user.png";
 import SertifikatDicoding from "./images/sertifikat-dicoding.png";
 import SertifikatPinjul from "./images/sertifikat-pinjul.png";
@@ -36,6 +38,8 @@ export {
   ProjectDummy8,
   ProjectDummy9,
   ProjectDummy10,
+  ProjectDummy11,
+  ProjectDummy12,
   UserProfileDummy,
   SertifikatDicoding,
   SertifikatPinjul,

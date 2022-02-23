@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import { Button, Modal, ModalBody } from "reactstrap";
 import {
+  LogoCi,
   LogoCsharp,
   LogoHtml5,
   LogoJquery,
   LogoReact,
   ProjectDummy1,
   ProjectDummy10,
+  ProjectDummy11,
+  ProjectDummy12,
   ProjectDummy2,
   ProjectDummy3,
   ProjectDummy4,
@@ -88,6 +91,22 @@ const jsonProduct = [
     description:
       "This is a mobile application for selling goods by dropship, you can visit it here: not available",
     tech: [LogoReact, LogoCsharp],
+  },
+  {
+    image: ProjectDummy11,
+    type: "Web Apps",
+    title: "CHATINGAN",
+    description:
+      "This is a learning application using websocket (socket.io) and php, you can visit my project here: https://github.com/salimsea/chatingan-php-socket_io",
+    tech: [LogoCi, LogoJquery],
+  },
+  {
+    image: ProjectDummy12,
+    type: "Mobile Apps",
+    title: "QURANQU",
+    description:
+      "this is a mobile app for reading quran, this app is made using php and react native, you can see my project here : https://github.com/salimsea/quran-qu",
+    tech: [LogoReact, LogoCi],
   },
 ];
 

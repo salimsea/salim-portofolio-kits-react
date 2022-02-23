@@ -17,7 +17,7 @@ const Footer = () => {
                   (window.location =
                     "https://drive.google.com/file/d/1z7N9GXKuBWev21WT9EPdF5EU7SaFyK5A/view?usp=sharing")
                 }
-                className="btn btn-primary mt-2"
+                className="btn-costum-primary-outline px-4 py-1 mt-2 mb-3"
               >
                 DOWNLOAD RESUME
               </button>
@@ -33,10 +33,10 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to={"/blog"}>
+                <a href="https://salim-tekno.blogspot.com/" target="_blank">
                   <div className="bulet-white"></div>
                   Blog
-                </Link>
+                </a>
               </li>
               <li>
                 <Link to={"/tools"}>
