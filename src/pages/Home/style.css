@@ -184,6 +184,14 @@
         margin-left: 0 !important;
     }
 
+    .navbar-light .navbar-toggler {
+        border-color: transparent !important;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
     .hero h1 {
         font-family: 'Mochiy Pop P One';
         font-size: 52px;
