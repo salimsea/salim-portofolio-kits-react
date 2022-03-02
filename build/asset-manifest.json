@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.bc1ffc0c.css",
-    "main.js": "/static/js/main.0287d4e1.js",
+    "main.js": "/static/js/main.fc41e30a.js",
     "static/js/787.967aa242.chunk.js": "/static/js/787.967aa242.chunk.js",
     "static/media/sertifikat-eBSI-Networking.png": "/static/media/sertifikat-eBSI-Networking.1b5a77a7aa610e2baed6.png",
     "static/media/sertifikat-Google-Digital-Garage .png": "/static/media/sertifikat-Google-Digital-Garage .9bce87afc9bb666108b5.png",
     "static/media/sertifikat-Google-Analis-Akademi.png": "/static/media/sertifikat-Google-Analis-Akademi.d2bb7c453d811ddc0c09.png",
     "static/media/sertifkat-Google-Analis-Beginner.png": "/static/media/sertifkat-Google-Analis-Beginner.7614acd06188a2f44a97.png",
     "static/media/project10.png": "/static/media/project10.8827f56404c3f024abd3.png",
+    "static/media/project13.png": "/static/media/project13.d4f2a5324083af10175d.png",
     "static/media/project12.png": "/static/media/project12.ca6ce9e65a304bd32aaa.png",
     "static/media/blog2.png": "/static/media/blog2.7929afa3511e52b03c91.png",
     "static/media/user.png": "/static/media/user.82424c6f3ae2c53a275f.png",
@@ -33,11 +34,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.bc1ffc0c.css.map": "/static/css/main.bc1ffc0c.css.map",
-    "main.0287d4e1.js.map": "/static/js/main.0287d4e1.js.map",
+    "main.fc41e30a.js.map": "/static/js/main.fc41e30a.js.map",
     "787.967aa242.chunk.js.map": "/static/js/787.967aa242.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc1ffc0c.css",
-    "static/js/main.0287d4e1.js"
+    "static/js/main.fc41e30a.js"
   ]
 }

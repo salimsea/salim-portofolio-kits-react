@@ -10,6 +10,7 @@ import {
   ProjectDummy10,
   ProjectDummy11,
   ProjectDummy12,
+  ProjectDummy13,
   ProjectDummy2,
   ProjectDummy3,
   ProjectDummy4,
@@ -105,8 +106,16 @@ const jsonProduct = [
     type: "Mobile Apps",
     title: "QURANQU",
     description:
-      "this is a mobile app for reading quran, this app is made using php and react native, you can see my project here : https://github.com/salimsea/quran-qu",
+      "This is a mobile app for reading quran, this app is made using php and react native, you can see my project here : https://github.com/salimsea/quran-qu",
     tech: [LogoReact, LogoCi],
+  },
+  {
+    image: ProjectDummy13,
+    type: "Web Apps",
+    title: "NGAJISKUY",
+    description:
+      "This is a landing page application, the result of my learning in slicing pages from figma to the web. the design was made by ASRIL MOCHAMMAD, see the figma design here: https://dribbble.com/shots/17577547-Belajar-Ngaji-Landing-Page-Freebies and if you want to see the web demo visit here: https://seal-project5.netlify.app/",
+    tech: [LogoHtml5, LogoJquery],
   },
 ];
 
