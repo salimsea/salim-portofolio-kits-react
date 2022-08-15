@@ -33,9 +33,16 @@
     margin-bottom: 100px;
 }
 
+.project span {
+    font-family: 'Mochiy Pop P One' !important;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
 .project .img-project {
     border-radius: 20px;
     object-fit: cover;
+    height: 300px;
     width: 100%;
 }
 
@@ -43,11 +50,16 @@
     margin-bottom: 100px;
 }
 
+.description .card-profile {
+    padding-right: 25px;
+}
+
 .description .profile-creator {
     padding: 25px 30px 25px 30px;
     background-color: #FE7E6D;
-    width: 60%;
+    /* width: 60%; */
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .description .img-creator {
@@ -59,13 +71,16 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: bold;
-    font-size: 42px;
+    font-size: 25px;
     color: #FFFFFF;
 }
 
 .description span {
     font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
     color: #EEEEF3;
+    cursor: pointer;
 }
 
 .description .card-description p {
@@ -199,6 +214,14 @@
         margin-left: 0px;
     }
 
+    .project .img-project {
+        height: inherit;
+    }
+
+    .description .card-profile {
+        padding-right: 15px;
+    }
+
     .description .profile-creator {
         width: 100%;
     }
@@ -209,5 +232,8 @@
 
     .description h4 {
         font-size: 32px;
+    }
+    .description .card-description p {
+        text-align: inherit;
     }
 }

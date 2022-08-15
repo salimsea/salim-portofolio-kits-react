@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc1ffc0c.css",
-    "main.js": "/static/js/main.fc41e30a.js",
+    "main.css": "/static/css/main.3788a5d5.css",
+    "main.js": "/static/js/main.f824052d.js",
     "static/js/787.967aa242.chunk.js": "/static/js/787.967aa242.chunk.js",
     "static/media/sertifikat-eBSI-Networking.png": "/static/media/sertifikat-eBSI-Networking.1b5a77a7aa610e2baed6.png",
     "static/media/sertifikat-Google-Digital-Garage .png": "/static/media/sertifikat-Google-Digital-Garage .9bce87afc9bb666108b5.png",
+    "static/media/project14.png": "/static/media/project14.cf80f8be181b0de586c3.png",
     "static/media/sertifikat-Google-Analis-Akademi.png": "/static/media/sertifikat-Google-Analis-Akademi.d2bb7c453d811ddc0c09.png",
     "static/media/sertifkat-Google-Analis-Beginner.png": "/static/media/sertifkat-Google-Analis-Beginner.7614acd06188a2f44a97.png",
     "static/media/project10.png": "/static/media/project10.8827f56404c3f024abd3.png",
     "static/media/project13.png": "/static/media/project13.d4f2a5324083af10175d.png",
     "static/media/project12.png": "/static/media/project12.ca6ce9e65a304bd32aaa.png",
     "static/media/blog2.png": "/static/media/blog2.7929afa3511e52b03c91.png",
-    "static/media/user.png": "/static/media/user.82424c6f3ae2c53a275f.png",
     "static/media/project7.png": "/static/media/project7.ed5f71cdcf1fa44cde5c.png",
     "static/media/project11.png": "/static/media/project11.7d4c2567e07be510e191.png",
+    "static/media/user.png": "/static/media/user.ac6a471fe8e07c1b57cd.png",
     "static/media/project3.png": "/static/media/project3.28c6e18a039e3f0aaecc.png",
     "static/media/project2.png": "/static/media/project2.dc18004f5025d04d3abc.png",
     "static/media/project6.png": "/static/media/project6.41b8c0554be8dba07c22.png",
@@ -33,12 +34,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.bc1ffc0c.css.map": "/static/css/main.bc1ffc0c.css.map",
-    "main.fc41e30a.js.map": "/static/js/main.fc41e30a.js.map",
+    "main.3788a5d5.css.map": "/static/css/main.3788a5d5.css.map",
+    "main.f824052d.js.map": "/static/js/main.f824052d.js.map",
     "787.967aa242.chunk.js.map": "/static/js/787.967aa242.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc1ffc0c.css",
-    "static/js/main.fc41e30a.js"
+    "static/css/main.3788a5d5.css",
+    "static/js/main.f824052d.js"
   ]
 }

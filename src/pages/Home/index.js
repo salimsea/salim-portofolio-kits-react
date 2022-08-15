@@ -9,7 +9,6 @@ import {
   TabPane,
 } from "reactstrap";
 import {
-  Logo,
   LogoCi,
   LogoCsharp,
   LogoHtml5,
@@ -17,8 +16,7 @@ import {
   LogoReact,
   ProjectDummy1,
   ProjectDummy2,
-  ProjectDummy3,
-  ProjectDummy4,
+  ProjectDummy8,
   SertifikatDicoding,
   SertifikatGoogleAnalisAkademi,
   SertifikatGoogleAnalisBeginner,
@@ -26,9 +24,11 @@ import {
   SertifikatPinjul,
   SertifikatEBsiNetwork,
   UserProfileDummy,
+  ProjectDummy14,
 } from "src/assets";
 import "./style.css";
 import Slider from "react-slick";
+import { URLCV, URLGITHUB, URLLINKEDIN } from "src/config/helper";
 
 const Home = () => {
   useEffect(() => {
@@ -37,7 +37,7 @@ const Home = () => {
   const [isTab, setIsTab] = useState(1);
   return (
     <div>
-      <section className="hero" data-aos="fade-right">
+      <section className="hero" data-aos="fade-down">
         <Container>
           <div className="d-flex align-items-center">
             <span className="garis d-none d-sm-block"></span>
@@ -52,86 +52,64 @@ const Home = () => {
         </Container>
       </section>
 
-      <section className="project">
-        <Container>
-          <Row className="text-center">
-            <div className="col-md-6 mb-4" data-aos="fade-up">
-              <img
-                src={ProjectDummy1}
-                width="650"
-                className="img-project"
-                alt=""
-              />
-            </div>
-            <div className="col-md-6 mb-4" data-aos="fade-up">
-              <img
-                src={ProjectDummy2}
-                width="650"
-                className="img-project"
-                alt=""
-              />
-            </div>
-            <div className="col-md-6 mb-4" data-aos="fade-up">
-              <img
-                src={ProjectDummy3}
-                width="650"
-                className="img-project"
-                alt=""
-              />
-            </div>
-            <div className="col-md-6 mb-4" data-aos="fade-up">
-              <img
-                src={ProjectDummy4}
-                width="650"
-                className="img-project"
-                alt=""
-              />
-            </div>
-          </Row>
-        </Container>
-      </section>
-
       <section className="description">
         <div className="container">
-          <div className="profile-creator" data-aos="zoom-in">
-            <div className="row">
-              <div className="col-md-2">
-                <div>
-                  <img
-                    src={UserProfileDummy}
-                    width="120"
-                    className="img-fluid img-creator"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="col-md-10 align-self-center">
-                <h4>SALIM SEGAF ALQOSAM</h4>
-                <span>Facebook</span> <span className="text-white">|</span>{" "}
-                <span>Instagram</span>
-              </div>
-            </div>
-          </div>
           <div className="card-description mt-5">
             <div className="row">
-              <div className="col-md-6 pe-5" data-aos="fade-right">
+              <div className="col-md-6 card-profile" data-aos="fade-right">
+                <div className="profile-creator" data-aos="zoom-in">
+                  <div className="row">
+                    <div className="col-md-3">
+                      <div>
+                        <img
+                          src={UserProfileDummy}
+                          width="120"
+                          className="img-fluid img-creator"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-9 align-self-center">
+                      <h4>SALIM SEGAF ALQOSAM</h4>
+                      <span onClick={() => (window.location = URLGITHUB)}>
+                        GitHub
+                      </span>{" "}
+                      <span className="text-white">|</span>{" "}
+                      <span onClick={() => (window.location = URLLINKEDIN)}>
+                        LinkedIn
+                      </span>
+                    </div>
+                  </div>
+                </div>
                 <p>
                   Hai, my name Salim Segaf Alqosam, I'm from Indonesia and a
                   software engineer, I have experience in making mobile
                   applications and websites, I can solve problems in difficulty,
                   have a willingness to learn new technology, and can work with
-                  a team
+                  a team.
                   <br />
                   <br />
                   Techstack i like to use html, css, javascript, reactjs, react
                   native, csharp, php, postgresql, mysql.
+                  {/* What do I use and implement? <br />
+                  <br />
+                  Programming language <br />- C#, ASP.NET <br />- PHP,
+                  CodeIgniter, Laravel <br />- HTML, JavaScript, jQuery, CSS,
+                  Bootstrap <br />- ReactJS, React Native <br />- PostgreSQL,
+                  MYSQL <br />
+                  <br />
+                  Programming Tools <br />- Visual studio <br />- VS Code <br />
+                  - Android Studio <br />- XCode <br />- Visual Paradigm <br />-
+                  Postman Design Tools <br />- Figma <br />- Adobe Photoshop{" "}
+                  <br />- Pencil <br />
+                  <br />
+                  Other <br />- Web Server Setup Experience (Nginx, Apache){" "}
+                  <br />- Email Server Setup Experience (Zimbra) <br />- OS
+                  Usage Experience (Ubuntu, MacOS, Windows) */}
                 </p>
                 <div className="mt-5">
                   <button
-                    onClick={() =>
-                      (window.location =
-                        "https://drive.google.com/file/d/1z7N9GXKuBWev21WT9EPdF5EU7SaFyK5A/view?usp=sharing")
-                    }
+                    onClick={() => (window.location = URLCV)}
                     className="btn btn-costum-primary-outline px-5 mb-3 btn-block"
                   >
                     DOWNLOAD RESUME
@@ -208,20 +186,20 @@ const Home = () => {
                         <li>
                           <div className="bulet"></div>
                           <p>
-                            PT Digital Dropship Indonesia <br />
-                            <small>Jan 2019 - Present</small> <br />
+                            PT Sawerigading Multi Kreasi <br />
+                            <small>Apr 2019 - Present</small> <br />
                             Working with tech stacks : C#, React.js, React
-                            Native, PostgreSQL, SignalR. <br />
+                            Native, JQuery, PostgreSQL. <br />
                             Fullstack Developer & Maintener Web & Mobile apps
                           </p>
                         </li>
                         <li>
                           <div className="bulet"></div>
                           <p>
-                            PT Sawerigading Multi Kreasi <br />
-                            <small>Oct 2019 - Present</small> <br />
+                            PT Digital Dropship Indonesia <br />
+                            <small>Jan 2019 - Present</small> <br />
                             Working with tech stacks : C#, React.js, React
-                            Native, JQuery, PostgreSQL. <br />
+                            Native, PostgreSQL, SignalR. <br />
                             Fullstack Developer & Maintener Web & Mobile apps
                           </p>
                         </li>
@@ -233,6 +211,49 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="project">
+        <Container>
+          <Row className="text-center">
+            <div className="col-md-12 mb-4">
+              <span>My Project</span>
+            </div>
+            <div className="col-md-6 mb-4" data-aos="fade-up">
+              <img
+                src={ProjectDummy14}
+                width="650"
+                height="300"
+                className="img-project"
+                alt=""
+              />
+            </div>
+            <div className="col-md-6 mb-4" data-aos="fade-up">
+              <img
+                src={ProjectDummy1}
+                width="650"
+                className="img-project"
+                alt=""
+              />
+            </div>
+            <div className="col-md-6 mb-4" data-aos="fade-up">
+              <img
+                src={ProjectDummy2}
+                width="650"
+                className="img-project"
+                alt=""
+              />
+            </div>
+            <div className="col-md-6 mb-4" data-aos="fade-up">
+              <img
+                src={ProjectDummy8}
+                width="650"
+                className="img-project"
+                alt=""
+              />
+            </div>
+          </Row>
+        </Container>
       </section>
 
       <section className="certificate">

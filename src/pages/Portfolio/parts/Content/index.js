@@ -11,6 +11,7 @@ import {
   ProjectDummy11,
   ProjectDummy12,
   ProjectDummy13,
+  ProjectDummy14,
   ProjectDummy2,
   ProjectDummy3,
   ProjectDummy4,
@@ -21,6 +22,14 @@ import {
 } from "src/assets";
 
 const jsonProduct = [
+  {
+    image: ProjectDummy14,
+    type: "Mobile Apps",
+    title: "Infrastruktur Pemerintahan - BNPP",
+    description:
+      "Applications make it easier to see Government Sarpras Data in Border Areas, you can see it on playstore, visit now: https://play.google.com/store/apps/details?id=com.bnppapp",
+    tech: [LogoReact, LogoCsharp],
+  },
   {
     image: ProjectDummy1,
     type: "Mobile Apps",

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Logo } from "src/assets";
+import { URLCV } from "src/config/helper";
 import "./style.css";
 
 const Footer = () => {
@@ -11,12 +12,11 @@ const Footer = () => {
           <div className="col-md-3">
             <div className="text-center">
               <img src={Logo} width="50" className="img-fluid" />
-              <h4 className="text-copyright-salim mt-2">salimseal.com</h4>
+              <h4 className="text-copyright-salim mt-2">
+                salimsea.netlify.app
+              </h4>
               <button
-                onClick={() =>
-                  (window.location =
-                    "https://drive.google.com/file/d/1z7N9GXKuBWev21WT9EPdF5EU7SaFyK5A/view?usp=sharing")
-                }
+                onClick={() => (window.location = URLCV)}
                 className="btn-costum-primary-outline px-4 py-1 mt-2 mb-3"
               >
                 DOWNLOAD RESUME
